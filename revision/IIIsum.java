@@ -1,4 +1,4 @@
-package twoPointers;
+package revision;
 
 import java.util.*;
 import java.util.List;

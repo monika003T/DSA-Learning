@@ -1,4 +1,4 @@
-package revision.practice;
+package practice;
 
 public class sum {
  public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package twoPointers;
+package revision;
 import java.util.*;
 public class zero {
     public static void main(String[] args){
