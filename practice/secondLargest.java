@@ -15,6 +15,7 @@ public class secondLargest {
                 largest=arr[i];
                 
             }
+            //agr array of i is less then largest and greater then second largest then what should be do second =arr[i]
             else if(arr[i]<largest && arr[i]>second){
                 second=arr[i];
             }
