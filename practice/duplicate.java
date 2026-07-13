@@ -9,6 +9,7 @@ public class duplicate {
         System.out.println(Arrays.toString(ans));
         
     }
+    //two pointers pattern 
     static int[] removeDuplicate(int[] nums){
         int slow=0;
         for(int fast =1; fast<nums.length; fast++){

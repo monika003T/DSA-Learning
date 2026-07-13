@@ -1,6 +1,6 @@
 package practice;
 
-import java.util.Arrays;
+
 
 //using two pointers
 public class reverseTheArray {

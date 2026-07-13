@@ -38,7 +38,7 @@ public class leftRotateByOne {
 
         }
         arr[0]=temp;
-         return arr;
+        return arr;
     }
     
    
