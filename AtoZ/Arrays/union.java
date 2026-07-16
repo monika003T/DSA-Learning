@@ -36,5 +36,23 @@ public class union {
              //return array of correct size
              return Arrays.copyOf(temp,index);
     }
+
+     public List<Integer> FindUnion(int[] arr1, int[] arr2, int n, int m) {
+        // Create TreeMap to store elements in sorted order
+        TreeMap<Integer, Integer> freq = new TreeMap<>();
+        // Loop through first array and store frequency
+        for (int i = 0; i < n; i++)
+            freq.put(arr1[i], freq.getOrDefault(arr1[i], 0) + 1);
+        // Loop through second array and store frequency
+        for (int i = 0; i < m; i++)
+            freq.put(arr2[i], freq.getOrDefault(arr2[i], 0) + 1);
+        // Create a list to store union result
+        List<Integer> Union = new ArrayList<>();
+        // Traverse map keys and add to union list
+        for (int key : freq.keySet())
+            Union.add(key);
+        // Return the union list
+        return Union;
+    }
     
 }
